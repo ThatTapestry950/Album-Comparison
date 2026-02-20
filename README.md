@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Supabase Setup
+
+### Required Environment Variables
+- `NEXT_PUBLIC_SUPABASE_URL` — Your Supabase project URL
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Your Supabase anon public key
+
+Add these to your `.env.local` file.
+
+### Database Setup
+1. Open the Supabase SQL Editor in your project dashboard.
+2. Copy and run the contents of `/supabase/schema.sql` to create tables and indexes.
+3. Copy and run the contents of `/supabase/seed.sql` to insert initial album data.
+
+### Verifying Supabase Connectivity
+- Start your dev server: `npm run dev`
+- Visit: `http://localhost:3000/api/supabase-test`
+- On success, you will see:
+  ```json
+  { "ok": true, "sample": { "id": "...", "title": "...", "artist": "..." } }
+  ```
+- On failure, you will see:
+  ```json
+  { "ok": false, "error": "..." }
+  ```

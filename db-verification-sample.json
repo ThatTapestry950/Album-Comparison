@@ -1,0 +1,37 @@
+[
+  {
+    "id": "b843ca9b-0fce-4843-abda-5f310f27e540",
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "year": 1980,
+    "created_at": "2026-02-20 16:35:22.305458+00"
+  },
+  {
+    "id": "5d640adc-ca1e-48e4-a30a-35f531b4c7ee",
+    "title": "Rumours",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "created_at": "2026-02-20 16:35:22.305458+00"
+  },
+  {
+    "id": "dc263bd6-43d5-4493-912d-c27b973a71a7",
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "year": 1973,
+    "created_at": "2026-02-20 16:35:22.305458+00"
+  },
+  {
+    "id": "e6ccc803-6337-437b-977b-7bf5f7873f57",
+    "title": "Abbey Road",
+    "artist": "The Beatles",
+    "year": 1969,
+    "created_at": "2026-02-20 16:35:22.305458+00"
+  },
+  {
+    "id": "f6cbca0f-271d-4484-80b8-14a4b1556958",
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "created_at": "2026-02-20 16:35:22.305458+00"
+  }
+]
